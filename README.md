@@ -4,7 +4,7 @@ Reusable tabs navigation component which can improve website clarity and increas
 
 ### Initialization
 
-Tabs are divided into 2 main sections - `tabs-nav` (containing nav items) and `tabs-content` (containing tabs panels).
+Tabs are divided into 2 main sections - `Tabs Nav` and `Tabs Panels`.
 
 Use id to target a new tabs navigation component.
 
