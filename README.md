@@ -1,4 +1,4 @@
-# Pure JavaScript Tabs Navigation
+# Tabs Navigation
 
 Reusable tabs navigation component which can improve website clarity and increase user experience.
 
