@@ -1,11 +1,11 @@
-// (A) Top level function.
+// Top level function.
 function monoscopicTabs(target) {
-  // (B) Get HTML elements.
+  // Get HTML elements.
   const tabs = document.getElementById(target);
   const navListItem = tabs.querySelectorAll('.tabs .nav > li');
   const tabsPanel = tabs.querySelectorAll('.tabs .panels > div');
 
-  // (C) Add attributes and onclick event.
+  // Add attributes and onclick event.
   for (let i = 0; i < navListItem.length; i++) {
     navListItem[i].classList.add('list-item');
     tabsPanel[i].classList.add('list-item');
@@ -22,12 +22,12 @@ function monoscopicTabs(target) {
     };
   }
 
-  // (D) Set default open tab if none is defined.
+  // Set default open tab if none is defined.
   if (tabs.querySelector('.active') == null) {
     navListItem[0].classList.add('active');
     tabsPanel[0].classList.add('active');
   }
 }
 
-// (E) Init new tabs navigation component.
+// Init new tabs navigation component.
 monoscopicTabs('tabs');
